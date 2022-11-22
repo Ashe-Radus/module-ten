@@ -1,8 +1,9 @@
-const employeeFile = require("./directories/lib/employee");
+const inquirer = require("inquirer");
+//const employeeFile = require("./directories/lib/employee"); dont need the parent file
 const managerFile = require("./directories/lib/manager");
 const engineerFile = require("./directories/lib/engineer");
 const internFile = require("./directories/lib/intern");
-const inquirer = require("inquirer");
+
 
 //initialize the questions:
 

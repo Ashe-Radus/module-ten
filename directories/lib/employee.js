@@ -13,6 +13,18 @@ class employee{
         console.log(`id: ${this.id}`);
         console.log(`email: ${this.email}`);
     }
+    getname(){
+        return this.name;
+    }
+    getID(){
+    return this.id;
+    }
+    getemail(){
+        return this.email;
+    }
+    getrole(){
+        return "employee";
+    }
 }
 
 module.exports = employee;
